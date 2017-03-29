@@ -27,7 +27,7 @@
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:src="@drawable/ic_kit_logo"
+                android:src="@drawable/kit_actionbar_image"
                 android:scrollbarAlwaysDrawHorizontalTrack="true"
                />
         </android.support.v7.widget.Toolbar>
