@@ -25,4 +25,14 @@
     android:orderInCategory="100"
     android:title="@string/action_alumini_login"
     app:showAsAction="never" />
+
+    <item
+
+        android:id="@+id/action_meat_developer"
+        android:orderInCategory="100"
+        android:title="Meat Developers"
+        app:showAsAction="never"
+        android:icon="?android:attr/fingerprintAuthDrawable"
+        android:checkable="false"
+        android:checked="false" />
 </menu>

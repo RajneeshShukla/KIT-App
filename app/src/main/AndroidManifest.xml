@@ -19,7 +19,6 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -29,10 +28,16 @@
         <activity
             android:name=".PCRC_Login"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".StudentLogin"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".FacultyLogin"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".StudentLogin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FacultyLogin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SplashDeveloper"
+            android:label="Meat Developers">
+
+        </activity>
     </application>
 
 </manifest>

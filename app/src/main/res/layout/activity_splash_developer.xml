@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_developer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="in.ac.kit.kit_app.SplashDeveloper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:src="@drawable/ic_rajneesh_photo"
+            android:layout_width="85dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp" />
+        <TextView
+            android:padding="30dp"
+            android:text="Rajneesh Shukla \n1416510095@kit.ac.in "
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:src="@drawable/ic_rajneesh_photo"
+            android:layout_width="85dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp" />
+        <TextView
+            android:padding="30dp"
+            android:text="Saurav Duvey \n1516510907@kit.ac.in "
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:src="@drawable/ic_rajneesh_photo"
+            android:layout_width="85dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp" />
+        <TextView
+            android:padding="30dp"
+            android:text="Sahreyar \n1416510106@kit.ac.in "
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:src="@drawable/ic_vishal_photo"
+            android:layout_width="85dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp" />
+        <TextView
+
+            android:padding="30dp"
+            android:text="Vishal Viswakarma \n1416510149@kit.ac.in "
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <TextView
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:text="Team Technu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorPrimary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@android:color/background_light" />
+</LinearLayout>
