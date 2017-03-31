@@ -1,6 +1,8 @@
 package in.ac.kit.kit_app;
 
 import android.content.Intent;
+import android.net.Uri;
+import android.os.Environment;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -19,6 +21,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -59,12 +62,42 @@ public class MainActivity extends AppCompatActivity {
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
+            public void onClick(View v) {
+              //  closeFile();
+                Intent i = new Intent(Intent.ACTION_SEND);
+                i.setType("message/rfc822");
+                i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"teamtechnu@gmail.com"});
+                i.putExtra(Intent.EXTRA_SUBJECT, "Greating For Android Application");
+                i.putExtra(Intent.EXTRA_TEXT   , "Hello , Team Technu \n\n /*** Write your message here ***?  \n \n \n Thanks, \n /*** Write your Name ***/");
+
+                java.io.File file = new java.io.File(Environment
+                        .getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
+                        + "/location.txt");
+                Uri uri = Uri.fromFile(file);
+                if (uri != null) {
+                    i.putExtra(Intent.EXTRA_STREAM, uri);
+                }
+
+                try {
+                    startActivityForResult(Intent.createChooser(i, "Send mail..."), 200);
+                } catch (android.content.ActivityNotFoundException ex) {
+                    Toast.makeText(MainActivity.this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        /*
+
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Develop by Rajneesh Shukla", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
+
         });
 
+*/
     }
 
 
@@ -118,8 +151,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
-
-        return super.onOptionsItemSelected(item);
+       return super.onOptionsItemSelected(item);
     }
 
 
