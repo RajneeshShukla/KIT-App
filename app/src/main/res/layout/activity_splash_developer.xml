@@ -59,7 +59,7 @@
         android:background="@color/colorAccent">
 
         <ImageView
-            android:src="@drawable/ic_rajneesh_photo"
+            android:src="@drawable/ic_sahreyar_photo"
             android:layout_width="85dp"
             android:layout_height="fill_parent"
             android:layout_gravity="left"
