@@ -6,6 +6,8 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+
+
 public class Splash extends Activity {
 
     //Splash Screen Timer
@@ -19,9 +21,11 @@ public class Splash extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(Splash.this , MainActivity.class);
-                startActivity(intent);
                 finish();
+                Intent intent = new Intent(Splash.this, RegistrationActivity.class);
+                    startActivity(intent);
+
+
             }
         },SPLASH_TIME_OUT);
     }

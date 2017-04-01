@@ -34,8 +34,15 @@
         <activity
             android:name=".FacultyLogin"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SplashDeveloper"
-            android:label="Meat Developers">
+        <activity
+            android:name=".SplashDeveloper"
+            android:label="Meat Developers" />
+        <activity android:name=".RegistrationActivity"
+            android:label="User Registration">
+
+        </activity>
+        <activity android:name=".LoginActivity"
+            android:label="Login">
 
         </activity>
     </application>
