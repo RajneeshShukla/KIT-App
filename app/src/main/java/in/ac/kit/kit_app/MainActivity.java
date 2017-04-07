@@ -166,42 +166,42 @@ public class MainActivity extends AppCompatActivity {
 
     public void PayFeeOnClickHandler(View view) {
         Toast.makeText(MainActivity.this, "Pay Fee Online", Toast.LENGTH_SHORT).show();
-       // startActivity(new Intent(this ,SDCActivity.class));
+        startActivity(new Intent(this ,PayFee.class));
     }
 
     public void ScholarshipOnClickHandler(View view) {
         Toast.makeText(MainActivity.this, "Scholarship", Toast.LENGTH_SHORT).show();
-       // startActivity(new Intent(this ,SDCActivity.class));
+         startActivity(new Intent(this ,Scholarship.class));
     }
 
     public void AluminiOnClickHandler(View view) {
-        Toast.makeText(MainActivity.this, "Alumini", Toast.LENGTH_SHORT).show();
-       // startActivity(new Intent(this ,SDCActivity.class));
+        Toast.makeText(MainActivity.this, "Meat Alumini", Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(this ,Webview.class));
     }
 
     public void IEEEOnClickHandler(View view) {
         Toast.makeText(MainActivity.this, "IEEE", Toast.LENGTH_SHORT).show();
-     //   startActivity(new Intent(this ,SDCActivity.class));
+        startActivity(new Intent(this ,IEEE.class));
     }
 
     public void PatnerOnClickHandler(View view) {
         Toast.makeText(MainActivity.this, "Training Partners", Toast.LENGTH_SHORT).show();
-       // startActivity(new Intent(this ,SDCActivity.class));
+       startActivity(new Intent(this ,TrainingPatners.class));
     }
 
     public void TeachersOnClickHandler(View view) {
         Toast.makeText(MainActivity.this, "Faculty", Toast.LENGTH_SHORT).show();
-       // startActivity(new Intent(this ,SDCActivity.class));
+        startActivity(new Intent(this ,MeatFaulty.class));
     }
 
     public void RankOnClickHandler(View view) {
         Toast.makeText(MainActivity.this, "Rank", Toast.LENGTH_SHORT).show();
-      //  startActivity(new Intent(this ,SDCActivity.class));
+       startActivity(new Intent(this ,Rank.class));
     }
 
     public void NewsOnClickHandler(View view) {
         Toast.makeText(MainActivity.this, "KIT in news", Toast.LENGTH_SHORT).show();
-       // startActivity(new Intent(this ,SDCActivity.class));
+        startActivity(new Intent(this ,News.class));
     }
 
 

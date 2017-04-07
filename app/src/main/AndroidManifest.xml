@@ -13,7 +13,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Splash"
             android:theme="@style/AppTheme.NoActionBar">
@@ -40,15 +40,30 @@
             android:label="Meat Developers" />
         <activity
             android:name=".RegistrationActivity"
-            android:label="User Registration"></activity>
+            android:label="Student Registration" />
         <activity
             android:name=".LoginActivity"
-            android:label="Login"></activity>
+            android:label="Login" />
+        <activity
+            android:name=".SDCActivity"
+            android:label="Skill Development Cell" />
+        <activity android:name=".Scholarship"
+            android:label="Scholarship"/>
+        <activity android:name=".IEEE"
+            android:label="IEEE Sudent Chapter"/>
 
-        <activity android:name=".SDCActivity"
-            android:label="Skill Development Cell">
+        <activity android:name=".PayFee"
+            android:label="Pay Fee Online"/>
 
-        </activity>
+        <activity android:name=".Rank"
+            android:label="Ranked No. 1"/>
+
+        <activity android:name=".News"
+            android:label="News and Events"/>
+        <activity android:name=".TrainingPatners" />
+
+        <activity android:name=".MeatFaulty"
+            android:label="Meat Faculty"></activity>
     </application>
 
 </manifest>
