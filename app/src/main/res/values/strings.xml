@@ -5,4 +5,21 @@
     <string name="action_pcrc_login">PCRC Login</string>
     <string name="action_alumini_login">Alumini Login</string>
     <string name="section_format"></string>
+
+    <string name="sdc_key_objectives">Skills Development Cell prime objective in KIT is to acquaint the students of our Institute with
+        Industry. The Skills Development Cell organizes and extends services towards collaborative training activities. The cell conducts
+        training activities for its students KSA (Knowledge; Skills and Aptitude) mainly focusing on Career Planning, Aptitude Development.
+        Industry- Institute Interaction through:
+            \n\n On and Off - Campus Training
+            \nIndustrial Tours and Visits
+            \nSeminars and Workshops
+            \nIndustrial Training
+            \nSummer and Winter Internship
+            \nCareer Planning And Career Mapping
+            \nGuest Lectures
+            \nIn House Training
+            \nFree Internship Programs
+            \n\nKIT, Kanpur is one of the very few colleges where the idea of establishing a specialised training cell
+        has been implemented and proved successful. Skills Development Cell is sincerely working to empower students with various
+        qualities and skills to achieve professional and personal excellence</string>
 </resources>

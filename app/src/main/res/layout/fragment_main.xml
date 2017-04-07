@@ -36,20 +36,23 @@
                     android:layout_margin="18dp"
                     android:src="@drawable/ic_scholarship"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"/>
+                    android:layout_height="80dp"
+                    android:onClick="ScholarshipOnClickHandler"/>
 
                 <ImageView
                     android:layout_margin="18dp"
                     android:src="@drawable/ic_placement"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"/>
+                    android:layout_height="80dp"
+                    android:onClick="SdcOnClickHandler"/>
 
                 <ImageView
                     android:layout_margin="18dp"
                     android:src="@drawable/ic_alimini"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:id="@+id/imageViewAluumini" />
+                    android:id="@+id/imageViewAluumini"
+                    android:onClick="AluminiOnClickHandler"/>
             </LinearLayout>
 
             <LinearLayout
@@ -62,20 +65,22 @@
                     android:src="@drawable/ic_ieee"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:id="@+id/imageView2" />
+                    android:id="@+id/imageView2"
+                    android:onClick="IEEEOnClickHandler"/>
 
                 <ImageView
                     android:layout_margin="18dp"
                     android:src="@drawable/ic_patner"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"/>
+                    android:layout_height="80dp"
+                    android:onClick="PatnerOnClickHandler"/>
 
                 <ImageView
                     android:layout_margin="18dp"
                     android:src="@drawable/ic_teachers_login"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    />
+                    android:onClick="TeachersOnClickHandler"/>
             </LinearLayout>
 
             <LinearLayout
@@ -86,20 +91,24 @@
                     android:layout_margin="18dp"
                     android:src="@drawable/ic_rank"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"/>
+                    android:layout_height="80dp"
+                    android:onClick="RankOnClickHandler"/>
 
                 <ImageView
                     android:layout_margin="18dp"
                     android:src="@drawable/ic_kit_pay_fee"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"/>
+                    android:layout_height="80dp"
+                    android:onClick="PayFeeOnClickHandler"/>
 
                 <ImageView
                     android:layout_margin="18dp"
                     android:src="@drawable/ic_kit_news"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:id="@+id/imageView" />
+                    android:id="@+id/imageView"
+                    android:onClick="NewsOnClickHandler"
+                    />
             </LinearLayout>
 
         </LinearLayout>

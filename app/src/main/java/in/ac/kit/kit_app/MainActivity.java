@@ -156,6 +156,56 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    /**
+     * Main Fragmnet menus OnClick messages
+     */
+    public void SdcOnClickHandler(View view){
+        Toast.makeText(MainActivity.this, "Skill Develoment Cell", Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(this ,SDCActivity.class));
+    }
+
+    public void PayFeeOnClickHandler(View view) {
+        Toast.makeText(MainActivity.this, "Pay Fee Online", Toast.LENGTH_SHORT).show();
+       // startActivity(new Intent(this ,SDCActivity.class));
+    }
+
+    public void ScholarshipOnClickHandler(View view) {
+        Toast.makeText(MainActivity.this, "Scholarship", Toast.LENGTH_SHORT).show();
+       // startActivity(new Intent(this ,SDCActivity.class));
+    }
+
+    public void AluminiOnClickHandler(View view) {
+        Toast.makeText(MainActivity.this, "Alumini", Toast.LENGTH_SHORT).show();
+       // startActivity(new Intent(this ,SDCActivity.class));
+    }
+
+    public void IEEEOnClickHandler(View view) {
+        Toast.makeText(MainActivity.this, "IEEE", Toast.LENGTH_SHORT).show();
+     //   startActivity(new Intent(this ,SDCActivity.class));
+    }
+
+    public void PatnerOnClickHandler(View view) {
+        Toast.makeText(MainActivity.this, "Training Partners", Toast.LENGTH_SHORT).show();
+       // startActivity(new Intent(this ,SDCActivity.class));
+    }
+
+    public void TeachersOnClickHandler(View view) {
+        Toast.makeText(MainActivity.this, "Faculty", Toast.LENGTH_SHORT).show();
+       // startActivity(new Intent(this ,SDCActivity.class));
+    }
+
+    public void RankOnClickHandler(View view) {
+        Toast.makeText(MainActivity.this, "Rank", Toast.LENGTH_SHORT).show();
+      //  startActivity(new Intent(this ,SDCActivity.class));
+    }
+
+    public void NewsOnClickHandler(View view) {
+        Toast.makeText(MainActivity.this, "KIT in news", Toast.LENGTH_SHORT).show();
+       // startActivity(new Intent(this ,SDCActivity.class));
+    }
+
+
+
 
     /**
      * A placeholder fragment containing a simple view.
