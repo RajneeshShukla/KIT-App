@@ -4,5 +4,5 @@
     <string name="action_faculty_login">Faculty Login</string>
     <string name="action_pcrc_login">PCRC Login</string>
     <string name="action_alumini_login">Alumini Login</string>
-    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="section_format"></string>
 </resources>
